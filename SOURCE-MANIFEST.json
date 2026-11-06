@@ -1,0 +1,665 @@
+{
+  "baseline": "IKO 0.3.11+94",
+  "recordDate": "2026-11-04",
+  "extractedOn": "2026-11-06",
+  "files": [
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/session.ts",
+      "target": "scenes/mado/src/session.ts",
+      "sourceSha256": "0a00c22de6e2e950acec227bde2a64f4b1b1356f075ac9b9dc7b4ea9d8f5d9b5",
+      "publishedSha256": "0a00c22de6e2e950acec227bde2a64f4b1b1356f075ac9b9dc7b4ea9d8f5d9b5",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/quality.ts",
+      "target": "scenes/mado/src/quality.ts",
+      "sourceSha256": "a434501cdf700068dd5307d4e77d210253dba803fac1bcd6fdd21258eb540bcc",
+      "publishedSha256": "37a477008642573f68d987ad6b450312ee0c2e6576d71bafd3ba8b5a227f3094",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/home-framing.ts",
+      "target": "scenes/mado/src/home-framing.ts",
+      "sourceSha256": "09a802c38a181d4b982368909a5409a6fa91d5e5731461a7bd60eb54c9192a83",
+      "publishedSha256": "d803085f1fd1f8690428a311f48681f420ab90da8bb635f88b5e023ae8901728",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/home-interaction.ts",
+      "target": "scenes/mado/src/home-interaction.ts",
+      "sourceSha256": "dff608e83ad7e33a05c05f3b55b24c3998adea5cb943448602fa623d05d46470",
+      "publishedSha256": "dff608e83ad7e33a05c05f3b55b24c3998adea5cb943448602fa623d05d46470",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/tests/session.test.ts",
+      "target": "scenes/mado/tests/session.test.ts",
+      "sourceSha256": "0463146faced352d7113d1815b07e3eee4c3d9dc7a43d1bb74dc9666305bc08a",
+      "publishedSha256": "0463146faced352d7113d1815b07e3eee4c3d9dc7a43d1bb74dc9666305bc08a",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/tests/quality.test.ts",
+      "target": "scenes/mado/tests/quality.test.ts",
+      "sourceSha256": "d8f3c13882c45bbb85908d148c0f6fccecd75c8e1fa41571591f360bbab27f47",
+      "publishedSha256": "d8f3c13882c45bbb85908d148c0f6fccecd75c8e1fa41571591f360bbab27f47",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/tests/quality97.test.ts",
+      "target": "scenes/mado/tests/quality97.test.ts",
+      "sourceSha256": "08c864e2150dd568517feb048b9c1c99346c906e7151637026ddc9230cbc990b",
+      "publishedSha256": "8958dddaa3b99d649276ed17a84a72171a18e9cba42efaac15d85dfd96092f2d",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/tests/home-framing97.test.ts",
+      "target": "scenes/mado/tests/home-framing97.test.ts",
+      "sourceSha256": "51bb3d1b206971d47c6c08309541f9920b6696a7c19b6e981a685990a9009df9",
+      "publishedSha256": "8c4ea3eba747dc9a4adc265c5be0a64d4fcb49f036773a3ef7e613a5b305e08c",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/tests/home-interaction.test.ts",
+      "target": "scenes/mado/tests/home-interaction.test.ts",
+      "sourceSha256": "129f1356a80e262d01cda8014d95c7c98de012ffb9b0cf15ca7f12b61f4cabb8",
+      "publishedSha256": "129f1356a80e262d01cda8014d95c7c98de012ffb9b0cf15ca7f12b61f4cabb8",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/ambient.ts",
+      "target": "reference/scenes/mado/src/ambient.ts",
+      "sourceSha256": "9158b59bf4b3ecb061394a73f4fbbc583e239a19a16f696faa0e0d1a4260cd57",
+      "publishedSha256": "9158b59bf4b3ecb061394a73f4fbbc583e239a19a16f696faa0e0d1a4260cd57",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/atmosphere.ts",
+      "target": "reference/scenes/mado/src/atmosphere.ts",
+      "sourceSha256": "66e6a3ab262e2dca20d28251ece69edf2ae9a15f4fd407deaebceddb038d72fb",
+      "publishedSha256": "66e6a3ab262e2dca20d28251ece69edf2ae9a15f4fd407deaebceddb038d72fb",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/audio.ts",
+      "target": "reference/scenes/mado/src/audio.ts",
+      "sourceSha256": "03ebe16a3bf795ac4f3c7840186a4ee8821c04427ed7bf5cc7002a24388e9ced",
+      "publishedSha256": "03ebe16a3bf795ac4f3c7840186a4ee8821c04427ed7bf5cc7002a24388e9ced",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/ceramic-cup.ts",
+      "target": "reference/scenes/mado/src/ceramic-cup.ts",
+      "sourceSha256": "04c31d3bb67a925dc0db90f4c2f3505608b7fd3592afc364f2a11ebad6d510f1",
+      "publishedSha256": "04c31d3bb67a925dc0db90f4c2f3505608b7fd3592afc364f2a11ebad6d510f1",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/cursor.ts",
+      "target": "reference/scenes/mado/src/cursor.ts",
+      "sourceSha256": "da94ee916ae4ac62941744a1e77c6bd4d3b32c0c690f1d38b47f4ff94ba17b3e",
+      "publishedSha256": "da94ee916ae4ac62941744a1e77c6bd4d3b32c0c690f1d38b47f4ff94ba17b3e",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/desk-actions.ts",
+      "target": "reference/scenes/mado/src/desk-actions.ts",
+      "sourceSha256": "7adc6b249c1897674ea8758f877d92f62d985c2acef3db1a66051b4d7dc58741",
+      "publishedSha256": "7adc6b249c1897674ea8758f877d92f62d985c2acef3db1a66051b4d7dc58741",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/drink-icons.ts",
+      "target": "reference/scenes/mado/src/drink-icons.ts",
+      "sourceSha256": "b1469a199d1cfb9c327f26fad5ab37828927532b16e2f6479cffaf73dee3b487",
+      "publishedSha256": "b1469a199d1cfb9c327f26fad5ab37828927532b16e2f6479cffaf73dee3b487",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/family.ts",
+      "target": "reference/scenes/mado/src/family.ts",
+      "sourceSha256": "dfc7ded6fdb35a80321e93fb8a1e586c70b3d09633f1282d5583120f8ed91d85",
+      "publishedSha256": "dfc7ded6fdb35a80321e93fb8a1e586c70b3d09633f1282d5583120f8ed91d85",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/friends.ts",
+      "target": "reference/scenes/mado/src/friends.ts",
+      "sourceSha256": "747ae81b1ff4c9e50b6c4fdb40c574f4314d0b7a411a87bc0250f8e9ba640a9e",
+      "publishedSha256": "747ae81b1ff4c9e50b6c4fdb40c574f4314d0b7a411a87bc0250f8e9ba640a9e",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/home-framing.ts",
+      "target": "reference/scenes/mado/src/home-framing.ts",
+      "sourceSha256": "09a802c38a181d4b982368909a5409a6fa91d5e5731461a7bd60eb54c9192a83",
+      "publishedSha256": "d803085f1fd1f8690428a311f48681f420ab90da8bb635f88b5e023ae8901728",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/home-interaction.ts",
+      "target": "reference/scenes/mado/src/home-interaction.ts",
+      "sourceSha256": "dff608e83ad7e33a05c05f3b55b24c3998adea5cb943448602fa623d05d46470",
+      "publishedSha256": "dff608e83ad7e33a05c05f3b55b24c3998adea5cb943448602fa623d05d46470",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/main.ts",
+      "target": "reference/scenes/mado/src/main.ts",
+      "sourceSha256": "1026461c6b71c3039620bf77509e59269950322e18bcf9b844a36cfbc0bfa1e2",
+      "publishedSha256": "5a6882b82b524d2b617d65cd186ffdb78421012e344e9ff0182eab5ba756396b",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/motion.ts",
+      "target": "reference/scenes/mado/src/motion.ts",
+      "sourceSha256": "e6c36f3b10e89d0ec3222e506246d7f9590fa4bfd63ef260f6be56d04ce83b8a",
+      "publishedSha256": "e6c36f3b10e89d0ec3222e506246d7f9590fa4bfd63ef260f6be56d04ce83b8a",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/orientation.ts",
+      "target": "reference/scenes/mado/src/orientation.ts",
+      "sourceSha256": "65f8a7a1d13db311e9479329dc39b0df7f45c48e11c3eae44a92f978989bdcaf",
+      "publishedSha256": "65f8a7a1d13db311e9479329dc39b0df7f45c48e11c3eae44a92f978989bdcaf",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/quality.ts",
+      "target": "reference/scenes/mado/src/quality.ts",
+      "sourceSha256": "a434501cdf700068dd5307d4e77d210253dba803fac1bcd6fdd21258eb540bcc",
+      "publishedSha256": "37a477008642573f68d987ad6b450312ee0c2e6576d71bafd3ba8b5a227f3094",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/routes.ts",
+      "target": "reference/scenes/mado/src/routes.ts",
+      "sourceSha256": "03ea5504dd375d00f9fa36753f3b7c7474c4e19627f3d08dc06f6bcecc74f9b6",
+      "publishedSha256": "03ea5504dd375d00f9fa36753f3b7c7474c4e19627f3d08dc06f6bcecc74f9b6",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/session.ts",
+      "target": "reference/scenes/mado/src/session.ts",
+      "sourceSha256": "0a00c22de6e2e950acec227bde2a64f4b1b1356f075ac9b9dc7b4ea9d8f5d9b5",
+      "publishedSha256": "0a00c22de6e2e950acec227bde2a64f4b1b1356f075ac9b9dc7b4ea9d8f5d9b5",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/student.ts",
+      "target": "reference/scenes/mado/src/student.ts",
+      "sourceSha256": "410f5f893b29ad657316c3b3da9daef6a338f43f4044829b10893d20798a8798",
+      "publishedSha256": "f65bcabbe55a3a968d557dab2f827f296242299ee9bc95222e5d9d4d45a81886",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/style.css",
+      "target": "reference/scenes/mado/src/style.css",
+      "sourceSha256": "47668d06cd1789876c422031ceef0fec0e942a824e308fbeb3fa67616040814e",
+      "publishedSha256": "a55efc5ce84ba2ad397f6a3f79dd043e34fd32f3e18c6e8ad1a92d86c4d5dd70",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/src/world.ts",
+      "target": "reference/scenes/mado/src/world.ts",
+      "sourceSha256": "674b3b964f1282c1e21b5766d053e0e3c798c0937e5d8f54d89087bd8f217dff",
+      "publishedSha256": "975c1085b0ff283c184facb06cb1a5267569dc27ff334a8d394902a41f5a2965",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/mado/THIRD_PARTY.md",
+      "target": "licenses/mado-THIRD_PARTY.md",
+      "sourceSha256": "94ad7ac3cc45ba08ba63a5ad94f788fd1cc7de52423094dd6810f16ad0d797b0",
+      "publishedSha256": "94ad7ac3cc45ba08ba63a5ad94f788fd1cc7de52423094dd6810f16ad0d797b0",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/src/session.ts",
+      "target": "scenes/haijian/src/session.ts",
+      "sourceSha256": "3b9c254ec25fe4fe1aac9f5a4221047c2fd95be7b4059e726998da34335f08e5",
+      "publishedSha256": "53b321b5baf6bca6b3b1414e58a498028989d80298a52dba1d47cd7fe586c555",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/src/opportunity.ts",
+      "target": "scenes/haijian/src/opportunity.ts",
+      "sourceSha256": "b89e92073ecbf49478bb00ee435403c00dd332f6c3f80d5faecf3eaa822df518",
+      "publishedSha256": "035dbb86e01b1705fdaa7d0321ab95b495c24461f34f759adb3521a18a5f2333",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/src/settings.ts",
+      "target": "scenes/haijian/src/settings.ts",
+      "sourceSha256": "a816c62a3b01c2b039e7a30c1ff4ea220cb2d93e973d36dc7672c56f35246f37",
+      "publishedSha256": "d602a0b42f2e5e8bd2e43ae9845fdb3fc9e951d1aad5a687e07dfd9a63788fe3",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/src/sound-mix.ts",
+      "target": "scenes/haijian/src/sound-mix.ts",
+      "sourceSha256": "b071fb9245b43f0050f3852cac205cae3fc8c2c47db58481a9fc6330e6f36cea",
+      "publishedSha256": "4a7bc19b88750003688a0071b1f5eb469f15fdfa236860ddfabe59169ea3b784",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/tests/session.test.ts",
+      "target": "scenes/haijian/tests/session.test.ts",
+      "sourceSha256": "b322327d4f0af9b3aa3bf65979ebe64b1bf81259db8d8e48939c1d87aaec8451",
+      "publishedSha256": "2e6a3da2f3fa4359b01dccd88edba2302064ddb43b50cbb2517773f049536de3",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/tests/sound-mix.test.ts",
+      "target": "scenes/haijian/tests/sound-mix.test.ts",
+      "sourceSha256": "895aa5beddbb2b0cd408d1af97f1ba5b935804a165d01157b5ceff66006b6642",
+      "publishedSha256": "2d4fd6b43896198db7c18336682a8207283f1395f5c1f8a04967d2067bfdfcc3",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/src/ambient.ts",
+      "target": "reference/scenes/haijian/src/ambient.ts",
+      "sourceSha256": "b56f463c5d064df3458e96f65c9eddfbece31e15d71e6d990a947e551b595ccc",
+      "publishedSha256": "42359edb9bf0a37fafc79a4915d5f251dc2d4e065820ddda25e2971e33c1707b",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/src/app.ts",
+      "target": "reference/scenes/haijian/src/app.ts",
+      "sourceSha256": "2f63a6dc4dc3fcd8aea1f697e7234b5f89ebfa4897b7b28a00a228d5f8d7b206",
+      "publishedSha256": "3f82f4d132fedd8a015535b96539100487067a3905d5811e149827980ef92633",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/src/audio.ts",
+      "target": "reference/scenes/haijian/src/audio.ts",
+      "sourceSha256": "32873eef8e0c46a74833ad759a0d2d67bb11cba22e281c25e3c7e3968ed26beb",
+      "publishedSha256": "05db5fa390a9054b45bed1a70c0743523c782c96a71a55df4632cd7f9264da1f",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/src/cafe-layout.css",
+      "target": "reference/scenes/haijian/src/cafe-layout.css",
+      "sourceSha256": "8078fcc1bca695a9f07e02caf939b19ba052b40ba5ac91a8e75f32d893ac6c42",
+      "publishedSha256": "997465e1955c5fb565ab54d31b78eff29ba1aea1e8ca11e5e522d4149e8eb83f",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/src/fishing.ts",
+      "target": "reference/scenes/haijian/src/fishing.ts",
+      "sourceSha256": "065e28ab14bcc2fde98bd16e66760204d5c5f5cb5a54e645806d80ddfcc4c637",
+      "publishedSha256": "3ca83b79acdfb02acf69de1aab4d31d361af24af462d3ad462b5c500679f4eea",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/src/hands.ts",
+      "target": "reference/scenes/haijian/src/hands.ts",
+      "sourceSha256": "dc8ce11f56fce2b7c66f3f2e7902ad92077ac940bfcec7c2ea3f8d3af76c10ff",
+      "publishedSha256": "5b2f4cfc17d20a92449354ec9b8a04845156a77f28f6c0e51014ceb54ae33dd8",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/src/icons.ts",
+      "target": "reference/scenes/haijian/src/icons.ts",
+      "sourceSha256": "e7441adbff476e57ca3a303eff739bcd79e6e062819d7d16e708a623610c8122",
+      "publishedSha256": "874852e2b8535f7cc94d9254f6402cf06891ee6f07de27b7fd637ae9f0c10733",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/src/main.ts",
+      "target": "reference/scenes/haijian/src/main.ts",
+      "sourceSha256": "802a7216186cc924710b353be5362debc92b8b2f6c1a8f92ff19e28b50822e65",
+      "publishedSha256": "802a7216186cc924710b353be5362debc92b8b2f6c1a8f92ff19e28b50822e65",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/src/materials.ts",
+      "target": "reference/scenes/haijian/src/materials.ts",
+      "sourceSha256": "5e16053e0ad3de6d96b613e83834248a9f8332f972b11d0a26341263fb38b7a1",
+      "publishedSha256": "a8f3c6d69d164bb15afd54196b8a25372e84c6d7e336647e81bc55211b80e2d4",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/src/ocean.ts",
+      "target": "reference/scenes/haijian/src/ocean.ts",
+      "sourceSha256": "a70dbd0bb1a993689dcad0ab4c74870a0f1920a184e6620f23524068e5df0f4d",
+      "publishedSha256": "039db02264d6cceb95533c9a72a25c2cbe63b02f31d7f67f87484ef8bddcc016",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/src/opportunity.ts",
+      "target": "reference/scenes/haijian/src/opportunity.ts",
+      "sourceSha256": "b89e92073ecbf49478bb00ee435403c00dd332f6c3f80d5faecf3eaa822df518",
+      "publishedSha256": "035dbb86e01b1705fdaa7d0321ab95b495c24461f34f759adb3521a18a5f2333",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/src/seascape.ts",
+      "target": "reference/scenes/haijian/src/seascape.ts",
+      "sourceSha256": "4c9f47c994084b6e4b236c460691b94d5337d24fec15282dc6940eb177d1cd0f",
+      "publishedSha256": "87307a89a2b5096a72fecf4d82b0008ebea21250b97932e95d647f38f755d131",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/src/session.ts",
+      "target": "reference/scenes/haijian/src/session.ts",
+      "sourceSha256": "3b9c254ec25fe4fe1aac9f5a4221047c2fd95be7b4059e726998da34335f08e5",
+      "publishedSha256": "53b321b5baf6bca6b3b1414e58a498028989d80298a52dba1d47cd7fe586c555",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/src/settings.ts",
+      "target": "reference/scenes/haijian/src/settings.ts",
+      "sourceSha256": "a816c62a3b01c2b039e7a30c1ff4ea220cb2d93e973d36dc7672c56f35246f37",
+      "publishedSha256": "d602a0b42f2e5e8bd2e43ae9845fdb3fc9e951d1aad5a687e07dfd9a63788fe3",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/src/sound-mix.ts",
+      "target": "reference/scenes/haijian/src/sound-mix.ts",
+      "sourceSha256": "b071fb9245b43f0050f3852cac205cae3fc8c2c47db58481a9fc6330e6f36cea",
+      "publishedSha256": "4a7bc19b88750003688a0071b1f5eb469f15fdfa236860ddfabe59169ea3b784",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/src/style.css",
+      "target": "reference/scenes/haijian/src/style.css",
+      "sourceSha256": "37cd33b674a13ab73872c935ee7e5457361f9c48c3b3a30929fbab9dd39120f5",
+      "publishedSha256": "f901220bad3e3c92c17380c7e7e46a95d7d2de8f23c31d4821f70f8ed9a989d6",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/src/ticket-drag.ts",
+      "target": "reference/scenes/haijian/src/ticket-drag.ts",
+      "sourceSha256": "4a2da91fbd440ca7b6512d01732daa73dd0b206c3c34b0a8095e03795b511dfe",
+      "publishedSha256": "a1c75da8d41ef762a0c942dc0aa8d1dee2fc1c06013a1d66ca67b6f5a483070e",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/src/voyage-ui.css",
+      "target": "reference/scenes/haijian/src/voyage-ui.css",
+      "sourceSha256": "30ab9ae5227bfe8a7f8ce8f143e89294598bea3b153fe7142e3045aefeed2294",
+      "publishedSha256": "4505697c3d666d53d1645e619f1e54ad0f21c628eaee69a64bf0e1b1d8a609cd",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/src/world.ts",
+      "target": "reference/scenes/haijian/src/world.ts",
+      "sourceSha256": "5965df2c782e47513514bd8bc492c1c9ec90301fee6f37e1ff4e3d6024b2641a",
+      "publishedSha256": "1adb853fb0ecaf1d135f24a145d2edb74442670462404e8d2cbd05d66fef2d6e",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/THIRD_PARTY.md",
+      "target": "licenses/haijian-THIRD_PARTY.md",
+      "sourceSha256": "e40d35a8e3929d397fb5804b646cb7f6add0b93019cbf7a18eb9f1d4f3c4b2a7",
+      "publishedSha256": "4ab5aef32023e80da6116a9caf8e0de65d4a26bcc4ee0133e98c6925eb7fd1ca",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/haijian/ASSETS.md",
+      "target": "licenses/haijian-ASSETS.md",
+      "sourceSha256": "16ad2cc4922acab2ac01245ed74af2b034a02ce6514237ad31cc0ea20d26c3fc",
+      "publishedSha256": "fd7823b19c98e0be37fe5749f0016a16c1d898a06e34c6b7613e8235f9c4eedc",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/shared/iko-host.ts",
+      "target": "scenes/shared/iko-host.ts",
+      "sourceSha256": "445a84c5ab15940aa06506728f265f5bf8b2b4241991df8bd5ca001d0163f2e6",
+      "publishedSha256": "445a84c5ab15940aa06506728f265f5bf8b2b4241991df8bd5ca001d0163f2e6",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/scenes/shared/pointer-trail.ts",
+      "target": "scenes/shared/pointer-trail.ts",
+      "sourceSha256": "639cb1142cb235bf74b3f54e92818ca3b87fc10ace7e9c4e9a8899ba2e1db929",
+      "publishedSha256": "639cb1142cb235bf74b3f54e92818ca3b87fc10ace7e9c4e9a8899ba2e1db929",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/features/focus_flight/flight_runtime.dart",
+      "target": "kumo/lib/features/focus_flight/flight_runtime.dart",
+      "sourceSha256": "af07402a94a7b748799e35bc35363a9b3501997030ada197d72af61efa775998",
+      "publishedSha256": "af07402a94a7b748799e35bc35363a9b3501997030ada197d72af61efa775998",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/features/focus_flight/focus_flight_model.dart",
+      "target": "kumo/lib/features/focus_flight/focus_flight_model.dart",
+      "sourceSha256": "799551eeaf3bf55d9114a83d1a2f48e9417c224cd5c1d086eaa3ac2ff64b5147",
+      "publishedSha256": "817461538f4b61824888a11fccde87d649673e3caac3467618b4b5027cd5fdbe",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/test/focus_flight_runtime_test.dart",
+      "target": "kumo/test/focus_flight_runtime_test.dart",
+      "sourceSha256": "c1fd1343bf6a0cbf400c2fc158b56d993950111694d15b8999d9e1ca712871c2",
+      "publishedSha256": "6e94e8f183d50c105ff7011d65df796b8b72b03d08dc20b016b28ec34b0b0e30",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/test/focus_flight_model_test.dart",
+      "target": "kumo/test/focus_flight_model_test.dart",
+      "sourceSha256": "fc32b8b3da70dc74de723a6adf381aea31f47dfde5778a3c5956691754086fbe",
+      "publishedSha256": "ae878b7053c2f1553790b80bfc35e0f7844f92fcd32e269a3c8bb82faf8231ee",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/features/focus_flight/blue_on_blue_game.dart",
+      "target": "reference/flutter/lib/features/focus_flight/blue_on_blue_game.dart",
+      "sourceSha256": "f86af760240f5a69e3c6ca03ada2275bf72160a4c5d32e78623b7c86ab521425",
+      "publishedSha256": "f86af760240f5a69e3c6ca03ada2275bf72160a4c5d32e78623b7c86ab521425",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/features/focus_flight/blue_on_blue_game_view.dart",
+      "target": "reference/flutter/lib/features/focus_flight/blue_on_blue_game_view.dart",
+      "sourceSha256": "0806eb4204e8ffd4a0be7766bfaadb4e8e6df00067783019e563d91c62c0eac5",
+      "publishedSha256": "0806eb4204e8ffd4a0be7766bfaadb4e8e6df00067783019e563d91c62c0eac5",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/features/focus_flight/boarding_pass_view.dart",
+      "target": "reference/flutter/lib/features/focus_flight/boarding_pass_view.dart",
+      "sourceSha256": "c7b6f9286314132d864be4231a6688bb22052de82b190510c40568ccbcf51303",
+      "publishedSha256": "c7b6f9286314132d864be4231a6688bb22052de82b190510c40568ccbcf51303",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/features/focus_flight/dash_globe_view.dart",
+      "target": "reference/flutter/lib/features/focus_flight/dash_globe_view.dart",
+      "sourceSha256": "95e0cc3563eabbb3ab07052d141420097be61f49e31bc7131151374ab48bc956",
+      "publishedSha256": "95e0cc3563eabbb3ab07052d141420097be61f49e31bc7131151374ab48bc956",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/features/focus_flight/flight_3d_view.dart",
+      "target": "reference/flutter/lib/features/focus_flight/flight_3d_view.dart",
+      "sourceSha256": "517705b8d87376eb94d193518fcfc58adb783469385d2c9deea0d884769c999c",
+      "publishedSha256": "517705b8d87376eb94d193518fcfc58adb783469385d2c9deea0d884769c999c",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/features/focus_flight/flight_navigation_chart.dart",
+      "target": "reference/flutter/lib/features/focus_flight/flight_navigation_chart.dart",
+      "sourceSha256": "9b0218d8878e9e5281345b74af9c99cb6606c7be0d7fbdb793b0e0fb6d48285d",
+      "publishedSha256": "9b0218d8878e9e5281345b74af9c99cb6606c7be0d7fbdb793b0e0fb6d48285d",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/features/focus_flight/flight_runtime.dart",
+      "target": "reference/flutter/lib/features/focus_flight/flight_runtime.dart",
+      "sourceSha256": "af07402a94a7b748799e35bc35363a9b3501997030ada197d72af61efa775998",
+      "publishedSha256": "af07402a94a7b748799e35bc35363a9b3501997030ada197d72af61efa775998",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/features/focus_flight/flight_showcase_server.dart",
+      "target": "reference/flutter/lib/features/focus_flight/flight_showcase_server.dart",
+      "sourceSha256": "aab32856d32a4ce2dbe05098b64c7b8c7fbcc07d6cba3fb9ddef575ae0fe1c29",
+      "publishedSha256": "aab32856d32a4ce2dbe05098b64c7b8c7fbcc07d6cba3fb9ddef575ae0fe1c29",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/features/focus_flight/focus_flight_model.dart",
+      "target": "reference/flutter/lib/features/focus_flight/focus_flight_model.dart",
+      "sourceSha256": "799551eeaf3bf55d9114a83d1a2f48e9417c224cd5c1d086eaa3ac2ff64b5147",
+      "publishedSha256": "817461538f4b61824888a11fccde87d649673e3caac3467618b4b5027cd5fdbe",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/features/focus_flight/focus_flight_platform.dart",
+      "target": "reference/flutter/lib/features/focus_flight/focus_flight_platform.dart",
+      "sourceSha256": "fefced003d6e569502740084d999a9a0a7ee3016c941fb80310d0bd77cfddcfe",
+      "publishedSha256": "fefced003d6e569502740084d999a9a0a7ee3016c941fb80310d0bd77cfddcfe",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/features/focus_flight/focus_flight_screen.dart",
+      "target": "reference/flutter/lib/features/focus_flight/focus_flight_screen.dart",
+      "sourceSha256": "382e3f64faf8e80e82caefce6cada6c4a18296a161e95721775c87b8ebd7ecd6",
+      "publishedSha256": "382e3f64faf8e80e82caefce6cada6c4a18296a161e95721775c87b8ebd7ecd6",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/features/focus_flight/focus_map_view.dart",
+      "target": "reference/flutter/lib/features/focus_flight/focus_map_view.dart",
+      "sourceSha256": "b79ddd8b43e4f8095bc4ec25dcb52509307aa07ea8bf7808124dafe5e48bef42",
+      "publishedSha256": "b79ddd8b43e4f8095bc4ec25dcb52509307aa07ea8bf7808124dafe5e48bef42",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/features/focus_flight/seat_map_view.dart",
+      "target": "reference/flutter/lib/features/focus_flight/seat_map_view.dart",
+      "sourceSha256": "63ed5da5b0a0c5961508b3bd1ce9c30cf2b1b87fed8c5b0b13c71c98f9652887",
+      "publishedSha256": "63ed5da5b0a0c5961508b3bd1ce9c30cf2b1b87fed8c5b0b13c71c98f9652887",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/services/focus_flight/focus_flight_history_store.dart",
+      "target": "reference/flutter/lib/services/focus_flight/focus_flight_history_store.dart",
+      "sourceSha256": "289445d830eb95dddd9923dbd22cff32521e8f8b08ec90949b5a71e2b060317d",
+      "publishedSha256": "289445d830eb95dddd9923dbd22cff32521e8f8b08ec90949b5a71e2b060317d",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/features/study/cafe_focus_screen.dart",
+      "target": "reference/flutter/lib/features/study/cafe_focus_screen.dart",
+      "sourceSha256": "aa0bcba1fca1e886967f07b5882f19ff00a7bf04f0a2692fb54980195c47693e",
+      "publishedSha256": "9ebd359d999dc480cf660af27c21a3d9e8f2a26bd35bb4fab9563f84fe4828ac",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/features/study/mado_ui_files.dart",
+      "target": "reference/flutter/lib/features/study/mado_ui_files.dart",
+      "sourceSha256": "8a8a3f5cb781bc902d3355e9fe30c66347e4c64681eb1874d4ccab61f7a1f823",
+      "publishedSha256": "3161019ea07e002d056b59274feb20da5919199f9b611184f313b98f98fa83a7",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/features/study/pointer_trail.dart",
+      "target": "reference/flutter/lib/features/study/pointer_trail.dart",
+      "sourceSha256": "c94d4a859ed311b00f0acb93565718d217a511716dabc1b3fb68fe33939ee0c8",
+      "publishedSha256": "c94d4a859ed311b00f0acb93565718d217a511716dabc1b3fb68fe33939ee0c8",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/features/study/scene_packs.dart",
+      "target": "reference/flutter/lib/features/study/scene_packs.dart",
+      "sourceSha256": "aebbb3fe2ade7cbdfbf6f84fe3e7bb04915a657e4f969a9c40f4034da3a00f17",
+      "publishedSha256": "dee6340f62c055ce991462f55c331598bfa8b3fa4dc0b33dd6a8baa521cf2066",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/features/study/scene_resource_gate.dart",
+      "target": "reference/flutter/lib/features/study/scene_resource_gate.dart",
+      "sourceSha256": "f0ca80d377c7569a66455f8cd4585088b8eedf882769da5d6a5a6a7ad97c96b8",
+      "publishedSha256": "5802169c039259088363ed7757326b3270f2c11bcf777d9be6095cedfdf31862",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/features/study/scene_snapshot.dart",
+      "target": "reference/flutter/lib/features/study/scene_snapshot.dart",
+      "sourceSha256": "8973a00d3650ca47a89aea1ed90e502f73a2cd58083d45253dbf293525106fed",
+      "publishedSha256": "8973a00d3650ca47a89aea1ed90e502f73a2cd58083d45253dbf293525106fed",
+      "adapted": false
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/features/study/study_hub.dart",
+      "target": "reference/flutter/lib/features/study/study_hub.dart",
+      "sourceSha256": "5020a1058a76596588fa7ed007eb1332888a36cc348f3e887201d38be3a52a4b",
+      "publishedSha256": "9194c85dd7b94d8c080eb501117df98252e5ffc1a557d73465b7fcf9dbadf2fc",
+      "adapted": true
+    },
+    {
+      "source": "source/main/outputs/iko-public-beta/lib/features/study/study_scene_screen.dart",
+      "target": "reference/flutter/lib/features/study/study_scene_screen.dart",
+      "sourceSha256": "a544256f42526468f969f3d88b88fab58d3f360eceab67e3439112fc800c7300",
+      "publishedSha256": "4e9eff5f7558c7940992020bd91698d9c03f2b4cdd4111d1d6e78ad47ec9b998",
+      "adapted": true
+    }
+  ],
+  "excludedFiles": {},
+  "generatedFiles": [
+    {
+      "target": ".gitattributes",
+      "sha256": "ba760de3d447e0b3f71a54df3e3360231b05dd98b4584b92b1e792a53eefdd0d"
+    },
+    {
+      "target": ".gitignore",
+      "sha256": "a8a1ac48c52460c848ecb12ed507fe6212b8fecb149c17c7eb2f037ebafd40c8"
+    },
+    {
+      "target": "CONTRIBUTING.md",
+      "sha256": "70229ef64c017ab35611eaabf4ff90af9dbbdbe3bdc4ee6cbffddd8477b979e1"
+    },
+    {
+      "target": "index.html",
+      "sha256": "0e8dcbc4bceb279ec25f72261f022b43179833159bc6936d962ec86ce32afa59"
+    },
+    {
+      "target": "LICENSE",
+      "sha256": "0ce17ff75376a5e69f909e91b4b145c36ce3848e95156d764a5a37a0d4a6ffdc"
+    },
+    {
+      "target": "package-lock.json",
+      "sha256": "b2ccef6c22cb2f3ccfdb49e105f6e43b5b05b1e10f46340c94dadb2ac6920d4b"
+    },
+    {
+      "target": "package.json",
+      "sha256": "4e1fcaef5a3c397605378a2876abb6b0200c43b804aa47027aa6bff295731b2f"
+    },
+    {
+      "target": "README.md",
+      "sha256": "3447c277cd3a2a87a1fbf6a0c371ffcf4d4d4d3093a0a2f6c15dc1cac9675ab9"
+    },
+    {
+      "target": "SECURITY.md",
+      "sha256": "e00ee6595322461749c1030aa9697f40e34e9826480c2c34927907a7f77f3b36"
+    },
+    {
+      "target": "THIRD-PARTY.md",
+      "sha256": "600ee490d69b71e2dc302986ba5e01b4ca9d6984e16fbd1e12d15245ad681db8"
+    },
+    {
+      "target": "tsconfig.json",
+      "sha256": "963830ec0231ede70de4859783ee7b01f677a02dceb4b763b04f6aa975e35e9d"
+    },
+    {
+      "target": "VALIDATION.md",
+      "sha256": "142a185968b36a7b6756b766dd4840e4c62d161fd5f231ffad700774382ecd2f"
+    },
+    {
+      "target": "example/main.ts",
+      "sha256": "2c837f4331fd1a0265ea28fa987b87158da1513903ce88ddc70e8075a6d3654e"
+    },
+    {
+      "target": "kumo/pubspec.lock",
+      "sha256": "944235ef54044f303f8fe370feca0e2b0cd34d91f28d4b56505bffab17418eb7"
+    },
+    {
+      "target": "kumo/pubspec.yaml",
+      "sha256": "eae43ffc2b26227d926faaebbc66f3c00bfd1c0cc18dc8fdef53141e4d451834"
+    }
+  ]
+}

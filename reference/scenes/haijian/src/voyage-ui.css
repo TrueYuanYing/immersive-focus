@@ -1,0 +1,41 @@
+/* MADO's quiet corner labels and small bottom controls, in Haijian's postal palette. */
+.hud{inset:0;display:block;transform:none;border:0;border-radius:0;padding:0;width:100%;max-width:none;background:none;box-shadow:none;backdrop-filter:none;pointer-events:none;opacity:0;transition:opacity 1.1s}
+.hud.visible{opacity:1;transform:none;pointer-events:none}
+.focus-top{position:absolute;top:max(26px,env(safe-area-inset-top));left:3.5%;right:3.5%;display:flex;align-items:flex-start;justify-content:space-between}
+.seat-label{padding:11px 16px;border-radius:24px;font-size:11px;letter-spacing:.1em;background:rgb(239 234 215 / 91%);color:var(--pine);box-shadow:0 2px 14px rgb(20 44 44 / 8%);pointer-events:auto}
+.seat-label span{margin-left:17px;font-size:10px;color:var(--muted);letter-spacing:.025em}
+.hud .focus-settings{background:rgb(239 234 215 / 91%);color:var(--pine);pointer-events:auto;width:40px;height:40px}
+.hud .focus-settings svg{width:18px;height:18px}
+.focus-bottom{position:absolute;bottom:max(53px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:12px;width:max-content;max-width:95%}
+.focus-controls{display:flex;gap:7px;align-items:center;background:rgb(240 234 216 / 95%);border:1px solid rgb(255 250 227 / 48%);box-shadow:0 6px 26px rgb(20 44 44 / 13%);border-radius:100px;padding:8px 13px 8px 23px;pointer-events:auto;color:var(--pine)}
+.hud .time-block{min-width:63px;display:flex;flex-direction:column;gap:3px;padding:0}
+.hud .time-block>span{font-size:8px;letter-spacing:.12em;color:var(--muted);line-height:1.2}
+.hud .time-block strong{font:18px/1.1 var(--utility);letter-spacing:.04em;font-variant-numeric:tabular-nums}
+.hud .round{width:38px;height:38px;min-height:38px;color:var(--pine)}
+.hud .round svg{width:17px;height:17px}
+.hud-divider{height:23px;width:1px;background:var(--line);margin:0 5px}
+.hud .fishing-entry{border:1px solid rgb(240 235 211 / 32%);border-radius:100px;background:rgb(29 65 60 / 91%);color:var(--paper);padding:10px 18px;display:flex;gap:11px;font-size:11px;min-height:55px;margin:0;pointer-events:auto;box-shadow:0 6px 26px rgb(20 44 44 / 13%)}
+.hud .fishing-entry svg{width:20px;height:20px}.hud .fishing-entry small{display:block;font-size:8px;margin-top:5px;color:rgb(238 228 203 / 67%)}
+.focus-route{position:absolute;bottom:25px;left:50%;transform:translateX(-50%);font-size:9px;letter-spacing:.10em;color:var(--paper);text-shadow:0 1px 8px var(--pine);white-space:nowrap;opacity:.85}
+.reveal{top:auto;bottom:18px;right:3.5%;color:var(--paper);background:rgb(25 56 52 / 30%);font-size:13px;width:34px;height:28px;min-height:0;line-height:1}
+.focus-hint{top:24%;font-size:22px}.focus-hint small{font-size:10px}
+#settings-dialog{width:min(430px,calc(100vw - 28px));margin:0;left:auto;right:3.5%;top:50%;transform:translateY(-50%);padding:30px;max-height:calc(100dvh - 48px);overflow:hidden}
+#settings-dialog .settings-body{max-height:calc(100dvh - 220px);overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--pine-soft) transparent;margin-right:-16px;padding-right:16px}
+#settings-dialog::backdrop{background:rgb(21 47 47 / 12%);backdrop-filter:none}
+.sound-presets{display:flex;flex-wrap:wrap;gap:7px}.sound-presets button{border:1px solid var(--line);border-radius:20px;padding:8px 12px;font-size:10px;min-height:34px}.sound-presets [aria-pressed=true]{background:var(--pine);color:var(--paper);border-color:var(--pine)}
+.sound-channels{border-top:1px solid var(--line);margin-top:18px;padding-top:1px}.sound-channels .slider-line{grid-template-columns:83px minmax(0,1fr) 33px;gap:8px;margin-top:19px}.sound-channels input{height:20px}.master-volume{grid-template-columns:70px minmax(0,1fr) 39px}.sound-channels output{color:var(--muted);font-variant-numeric:tabular-nums}
+.ticket-dock{display:grid;grid-template-columns:170px minmax(0,1fr);align-items:center;gap:42px;width:min(950px,93vw);position:relative;margin:10px 0 22px}
+.ticket-dock .boarding-ticket{width:100%;max-width:none;cursor:grab;touch-action:none;user-select:none;z-index:2;will-change:transform;background-image:none;outline-offset:8px}
+.boarding-ticket.dragging{cursor:grabbing;box-shadow:10px 22px 40px rgb(20 44 44 / 24%)}.boarding-ticket[aria-disabled=true]{cursor:default}
+.ticket-machine{height:340px;border-radius:17px 21px 19px 16px;background:#244b43;border:2px solid #57786a;position:relative;z-index:3;box-shadow:12px 15px 28px rgb(20 44 44 / 22%),inset 2px 1px rgb(238 226 192 / 25%);color:var(--paper)}
+.machine-brand{position:absolute;top:36px;left:24px;font:16px var(--display);letter-spacing:.17em}.machine-brand small{display:block;font:7px var(--utility);letter-spacing:.11em;margin-top:9px;opacity:.6}
+.machine-slot{position:absolute;right:15px;top:88px;width:12px;height:180px;border-radius:6px;background:#0b241e;box-shadow:-3px 0 0 #698373,2px 0 0 #a09162,inset 3px 0 5px #000}
+.machine-lamp{position:absolute;left:25px;top:124px;width:8px;height:8px;background:#ba9b62;border:1px solid #dcc18c;border-radius:50%;box-shadow:0 0 8px rgb(197 163 93 / 15%);transition:.2s}
+.ready .machine-lamp,.accepted .machine-lamp{background:#c3dfac;box-shadow:0 0 16px #bfe7a3}.accepted{animation:stamp-machine .22s ease-in-out}
+.machine-caption{position:absolute;left:25px;bottom:50px;font-size:11px;letter-spacing:.15em}.machine-caption small{display:block;font-size:8px;margin-top:12px;letter-spacing:0;opacity:.55}
+.machine-bolt{position:absolute;width:7px;height:7px;border-radius:50%;background:#a18e5f;box-shadow:inset 0 0 1px #fff}.bolt-one{top:14px;left:13px}.bolt-two{bottom:14px;left:13px}
+.ticket-instruction{font-size:12px;color:var(--pine);letter-spacing:.05em}.ticket-instruction>span{display:inline-block;margin-right:12px;font:24px Georgia;vertical-align:-2px}.ticket-screen>.soft-note{margin-top:10px;font-size:10px}
+@keyframes stamp-machine{50%{transform:translateY(3px)}}
+@media(max-width:700px){.ticket-dock{grid-template-columns:82px minmax(0,1fr);gap:15px;width:96vw}.ticket-machine{height:290px;border-radius:10px}.machine-brand{left:12px;top:29px;font-size:12px;letter-spacing:.04em}.machine-brand small{font-size:5px}.machine-slot{right:7px;top:80px;height:156px;width:8px}.machine-lamp{left:17px;top:95px}.machine-caption{left:16px;bottom:49px;font-size:10px;writing-mode:vertical-rl}.machine-caption small{display:none}.ticket-dock .ticket-main{padding:21px 15px}.ticket-dock .ticket-stub{display:none}.ticket-route{font-size:20px}.ticket-data{gap:10px}.ticket-data>span:last-child{width:100%}.ticket-data b{font-size:10px}.ticket-quote{font-size:8px;line-height:1.8}.ticket-instruction{font-size:11px}.ticket-screen>.soft-note{max-width:85%;font-size:9px}.ticket-dock .stamp{right:15px;top:114px}.focus-bottom{gap:7px}.focus-controls{padding:7px 10px 7px 16px;gap:3px}.hud .fishing-entry{padding:10px 13px;gap:8px}.seat-label span{margin-left:10px}.seat-label{font-size:10px}.focus-top{top:18px}}
+@media(max-height:560px) and (orientation:landscape){.focus-bottom{bottom:33px}.focus-route{bottom:12px;font-size:8px}.hud .time-block strong{font-size:18px}.hud .time-block{min-width:59px}.focus-controls{padding:6px 10px 6px 20px}.hud .round{width:35px;height:35px;min-height:35px}.hud .fishing-entry{min-height:49px;padding:8px 16px}.focus-top{top:16px}.seat-label{padding:9px 13px;font-size:10px}.ticket-dock{width:min(820px,92vw);grid-template-columns:118px minmax(0,1fr);gap:29px;margin:0 0 10px}.ticket-machine{height:242px}.machine-brand{top:25px;left:17px;font-size:13px}.machine-slot{top:57px;height:147px;right:9px}.machine-caption{left:17px;bottom:32px;font-size:10px}.machine-caption small{font-size:7px}.machine-lamp{top:97px;left:18px}.ticket-screen>.eyebrow{margin:7px 0 11px}.ticket-screen>.soft-note{font-size:8px;margin:4px 0}.ticket-instruction{font-size:10px}.ticket-instruction>span{font-size:18px}#settings-dialog{max-height:calc(100dvh - 24px);padding:25px}}
+@media(max-width:374px){.sound-channels .slider-line>span{grid-column:auto}.sound-channels .slider-line{grid-template-columns:78px minmax(0,1fr) 31px}.focus-controls{padding-left:12px}.hud .fishing-entry small{display:none}.hud .fishing-entry{padding:10px}.hud .fishing-entry>svg{display:none}}
